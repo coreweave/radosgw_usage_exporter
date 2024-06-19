@@ -2,3 +2,4 @@ prometheus-client==0.11.0
 requests>=2.26.0
 boto==2.46.1
 requests-aws==0.1.8
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
